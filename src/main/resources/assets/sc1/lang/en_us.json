@@ -1,0 +1,13 @@
+{
+  "itemGroup.sc1": "Smithing Construct",
+
+  "item.sc1.achat_gem": "Achat",
+  "item.sc1.burnt_brick": "Burnt Brick",
+
+  "block.sc1.burnt_stone_brick_block": "Burnt Stone Brick Block",
+  "block.sc1.magical_burnt_stone_brick_block": "Magical Burnt Stone Brick Block",
+  "block.sc1.burnt_stone_block": "Magical Burnt Stone Block",
+  "block.sc1.burnt_cobblestone_block": "Magical Burnt Stone Brick Block",
+  "block.sc1.mortar_block": "Mortar Block",
+  "block.sc1.achat_ore_block": "Achat Ore"
+}
