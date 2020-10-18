@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "gsg",
+    "scs",
+    "gsg"
+  ],
+  "key":
+  {
+    "s":
+    {
+      "item": "minecraft:sand"
+    },
+    "g":
+    {
+      "item": "minecraft:gravel"
+    },
+    "c":
+    {
+      "item": "minecraft:clay"
+    }
+  },
+  "result":
+  {
+    "item": "sc1:mortar_block",
+    "count": 16
+  }
+}

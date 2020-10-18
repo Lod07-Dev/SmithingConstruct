@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "sc1:mortar_block"
+  },
+  "result": "sc1:burnt_brick",
+  "experience": 1,
+  "cookingtime": 100
+}

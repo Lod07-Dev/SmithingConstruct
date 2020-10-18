@@ -3,6 +3,7 @@ package com.timurfriederici.smithingconstruct.util;
 import com.timurfriederici.smithingconstruct.SmithingConstruct;
 import com.timurfriederici.smithingconstruct.blocks.*;
 import com.timurfriederici.smithingconstruct.items.ItemBase;
+import com.timurfriederici.smithingconstruct.items.MagicItemBase;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
@@ -24,6 +25,7 @@ public class RegistryHandler {
     //Items
     public static final RegistryObject<Item> ACHAT_GEM = ITEMS.register("achat_gem", ItemBase::new);
     public static final RegistryObject<Item> BURNT_BRICK = ITEMS.register("burnt_brick", ItemBase::new);
+    public static final RegistryObject<Item> MAGICAL_NETHERITE_RING = ITEMS.register("magical_netherite_ring", MagicItemBase::new);
 
     //Tools
 
