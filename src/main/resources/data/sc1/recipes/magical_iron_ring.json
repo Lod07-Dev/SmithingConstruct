@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " a ",
+    "b b",
+    " i "
+  ],
+  "key":
+  {
+    "b":
+    {
+      "item": "sc1:burnt_brick"
+    },
+    "a":
+    {
+      "item": "sc1:achat_gem"
+    },
+    "i":
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "sc1:magical_iron_ring",
+    "count": 1
+  }
+}

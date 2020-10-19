@@ -2,8 +2,20 @@
   "itemGroup.sc1": "Smithing Construct",
 
   "item.sc1.achat_gem": "Achat",
+  "item.sc1.obsidian_ingot": "Obsidian Ingot",
+  "item.sc1.obsidian_scrap": "Obsidian Scrap",
   "item.sc1.burnt_brick": "Burnt Brick",
   "item.sc1.magical_netherite_ring": "Magical Netherite Ring",
+  "item.sc1.magical_diamond_ring": "Magical Diamond Ring",
+  "item.sc1.magical_gold_ring": "Magical Gold Ring",
+  "item.sc1.magical_iron_ring": "Magical Iron Ring",
+  "item.sc1.magical_burnt_brick_ring": "Magical Burnt Brick Ring",
+
+  "item.sc1.obsidian_sword": "Obsidian Sword",
+  "item.sc1.obsidian_axe": "Obsidian Axe",
+  "item.sc1.obsidian_hoe": "Obsidian Hoe",
+  "item.sc1.obsidian_pickaxe": "Obsidian Pickaxe",
+  "item.sc1.obsidian_shovel": "Obsidian Shovel",
 
   "block.sc1.burnt_stone_brick_block": "Burnt Stone Brick Block",
   "block.sc1.magical_burnt_stone_brick_block": "Magical Burnt Stone Brick Block",

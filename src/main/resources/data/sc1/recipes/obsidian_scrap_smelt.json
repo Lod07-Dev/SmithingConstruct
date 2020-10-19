@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:obsidian"
+  },
+  "result": "sc1:obsidian_scrap",
+  "experience": 3,
+  "cookingtime": 400
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key":
+  {
+    "b":
+    {
+      "item": "sc1:burnt_stone_brick_block"
+    },
+    "a":
+    {
+      "item": "sc1:achat_gem"
+    }
+  },
+  "result":
+  {
+    "item": "sc1:burnt_stone_brick_block",
+    "count": 1
+  }
+}

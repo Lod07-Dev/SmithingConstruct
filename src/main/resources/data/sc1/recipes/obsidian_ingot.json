@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "oso",
+    "s s",
+    "oso"
+  ],
+  "key":
+  {
+    "s":
+    {
+      "item": "sc1:burnt_brick"
+    },
+    "o":
+    {
+      "item": "sc1:obsidian_scrap"
+    }
+  },
+  "result":
+  {
+    "item": "sc1:obsidian_ingot",
+    "count": 2
+  }
+}

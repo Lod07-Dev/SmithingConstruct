@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " a ",
+    "b b",
+    " n "
+  ],
+  "key":
+  {
+    "b":
+    {
+      "item": "sc1:burnt_brick"
+    },
+    "a":
+    {
+      "item": "sc1:achat_gem"
+    },
+    "n":
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "sc1:magical_gold_ring",
+    "count": 1
+  }
+}
