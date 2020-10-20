@@ -11,11 +11,18 @@
   "item.sc1.magical_iron_ring": "Magical Iron Ring",
   "item.sc1.magical_burnt_brick_ring": "Magical Burnt Brick Ring",
 
+  "item.sc1.toughness_apple": "Toughness Apple",
+
   "item.sc1.obsidian_sword": "Obsidian Sword",
   "item.sc1.obsidian_axe": "Obsidian Axe",
   "item.sc1.obsidian_hoe": "Obsidian Hoe",
   "item.sc1.obsidian_pickaxe": "Obsidian Pickaxe",
   "item.sc1.obsidian_shovel": "Obsidian Shovel",
+
+  "item.sc1.obsidian_helmet": "Obsidian Helmet",
+  "item.sc1.obsidian_chestplate": "Obsidian Chestplate",
+  "item.sc1.obsidian_leggings": "Obsidian Leggings",
+  "item.sc1.obsidian_boots": "Obsidian Boots",
 
   "block.sc1.burnt_stone_brick_block": "Burnt Stone Brick Block",
   "block.sc1.magical_burnt_stone_brick_block": "Magical Burnt Stone Brick Block",

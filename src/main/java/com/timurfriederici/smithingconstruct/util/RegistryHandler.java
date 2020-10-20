@@ -1,11 +1,14 @@
 package com.timurfriederici.smithingconstruct.util;
 
 import com.timurfriederici.smithingconstruct.SmithingConstruct;
+import com.timurfriederici.smithingconstruct.armor.ModArmorMaterial;
 import com.timurfriederici.smithingconstruct.blocks.*;
+import com.timurfriederici.smithingconstruct.items.ToughnessApple;
 import com.timurfriederici.smithingconstruct.items.ItemBase;
 import com.timurfriederici.smithingconstruct.items.MagicItemBase;
 import com.timurfriederici.smithingconstruct.tools.SmithingItemTier;
 import net.minecraft.block.Block;
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -45,8 +48,14 @@ public class RegistryHandler {
     public static RegistryObject<ShovelItem> OBSIDIAN_SHOVEL = ITEMS.register("obsidian_shovel",        ()-> new ShovelItem (SmithingItemTier.OBSIDIAN, 1, -2.2f, new Item.Properties().group(SmithingConstruct.TAB)));
     public static RegistryObject<HoeItem> OBSIDIAN_HOE = ITEMS.register("obsidian_hoe",                 ()-> new HoeItem    (SmithingItemTier.OBSIDIAN, 0, -2.2f, new Item.Properties().group(SmithingConstruct.TAB)));
 
-    //Food
+    //Armor
+    public static RegistryObject<ArmorItem> OBSIDIAN_HELMET = ITEMS.register("obsidian_helmet",         ()-> new ArmorItem  (ModArmorMaterial.OBSIDIAN, EquipmentSlotType.HEAD, new Item.Properties().group(SmithingConstruct.TAB)));
+    public static RegistryObject<ArmorItem> OBSIDIAN_CHESTPLATE = ITEMS.register("obsidian_chestplate", ()-> new ArmorItem  (ModArmorMaterial.OBSIDIAN, EquipmentSlotType.CHEST, new Item.Properties().group(SmithingConstruct.TAB)));
+    public static RegistryObject<ArmorItem> OBSIDIAN_LEGGINGS = ITEMS.register("obsidian_leggings",     ()-> new ArmorItem  (ModArmorMaterial.OBSIDIAN, EquipmentSlotType.LEGS, new Item.Properties().group(SmithingConstruct.TAB)));
+    public static RegistryObject<ArmorItem> OBSIDIAN_BOOTS = ITEMS.register("obsidian_boots",           ()-> new ArmorItem  (ModArmorMaterial.OBSIDIAN, EquipmentSlotType.FEET, new Item.Properties().group(SmithingConstruct.TAB)));
 
+    //Food
+    public static RegistryObject<ToughnessApple> TOUGHNESS_APPLE = ITEMS.register("toughness_apple", ToughnessApple::new);
 
     //Blocks
     public static final RegistryObject<Block> BURNT_STONE_BRICK_BLOCK = BLOCKS.register("burnt_stone_brick_block", BurntStoneBrick::new);
